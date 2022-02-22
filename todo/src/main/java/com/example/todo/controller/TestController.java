@@ -12,4 +12,9 @@ public class TestController {
 	public String testController() {
 		return "Hello World !";
 	}
+	
+	@GetMapping("/testGetMapping")
+	public String testControllerWithPath() {
+		return "Hello World! testGetMapping";
+	}
 }
